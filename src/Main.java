@@ -26,8 +26,8 @@ public class Main {
 
         int start1 = 0;
         int end1 = 5;
-        int start2 = 1;
-        int end2 = 5;
+        int start2 = 0;
+        int end2 = 10;
         if (start1 < start2 && end1 == start2) {
             System.out.println("Точка пересечения двух отрезков: " + end1);
         } else if (start2 < start1 && end2 == start1) {
@@ -48,6 +48,8 @@ public class Main {
             System.out.println("Начало отрезка: " + start1 + ". Конец отрезка: " + end1);
         } else if (start2 > start1 && end2 == end1) {
             System.out.println("Начало отрезка: " + start2 + ". Конец отрезка: " + end1);
+        } else if (start2 == start1 && end2 > end1){
+            System.out.println("Начало отрезка: " + start1 + ". Конец отрезка: " + end1);
         }
     }
 }
