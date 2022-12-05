@@ -200,6 +200,7 @@ public class Main {
         for (int i = previousYears; i <= nextYears; i++){
             if (i % 79 == 0){
                 System.out.println(i);
+
             }
         }
     }
